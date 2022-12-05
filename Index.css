@@ -8,16 +8,24 @@ text-align:center;
 
 }
 
-.stats{
-  color:lightsalmon;
-}
+ /* .stats{
+   color:lightsalmon; 
+} 
 
-a{
+ a{
     color:blue;
-}
+} 
 em{color:red;}
 form{
 color:aquamarine;
+}  */
+
+h1,h2,h3,h4,table,form
+{
+  color:yellow;
+}
+em{
+  color:red;
 }
 footer{color:lightslategray;
 }
@@ -33,10 +41,8 @@ table, th, td {
 
 @media screen and (max-width: 380px) {
  /* On mobile, the heading turns light blue and the subheading turns light green */
- h1{
-  color:lightblue;
- }
- h2{
-  color:lightgreen;
+ h1,h2,h3,h4,table,form
+ {
+  color:yellowgreen;
  }
   }
