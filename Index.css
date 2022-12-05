@@ -20,6 +20,10 @@ form{
 color:aquamarine;
 }  */
 
+a{
+ color:white;
+}
+
 h1,h2,h3,h4,table,form
 {
   color:yellow;
